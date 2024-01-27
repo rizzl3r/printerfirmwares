@@ -1168,7 +1168,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 130 } //Miroswiss direct drive recommends 130 initially. See: https://cdn.shopify.com/s/files/1/1210/0176/files/Micro_Swiss_Direct_Drive_Extruder_for_Printers_with_ExoSlide_Configuration.pdf
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 130 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -2839,7 +2839,7 @@
 // This is RAMPS-compatible using a single 10-pin connector.
 // (For CR-10 owners who want to replace the Melzi Creality board but retain the display)
 //
-//#define CR10_STOCKDISPLAY
+#define CR10_STOCKDISPLAY
 
 //
 // Ender-2 OEM display, a variant of the MKS_MINI_12864
@@ -3092,7 +3092,7 @@
 //
 // 1024x600, 7", RGB Stock Display with Rotary Encoder from BIQU-BX
 //
-#define BIQU_BX_TFT70
+//#define BIQU_BX_TFT70
 
 //
 // 480x320, 3.5", SPI Stock Display with Rotary Encoder from BIQU B1 SE Series
