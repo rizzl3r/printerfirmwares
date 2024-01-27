@@ -2553,7 +2553,7 @@
 //
 // MKS MINI12864 V3 is an alias for FYSETC_MINI_12864_2_1. Type A/B. NeoPixel RGB Backlight.
 //
-#define MKS_MINI_12864_V3
+//#define MKS_MINI_12864_V3 //RJ Commented out 2023.08.15
 
 //
 // MKS LCD12864A/B with graphic controller and SD support. Follows MKS_MINI_12864 pinout.
@@ -2584,7 +2584,7 @@
 // This is RAMPS-compatible using a single 10-pin connector.
 // (For CR-10 owners who want to replace the Melzi Creality board but retain the display)
 //
-// #define CR10_STOCKDISPLAY //RJ Disabled
+#define CR10_STOCKDISPLAY //RJ Disabled //RJ Re-enabled. Use with EXP3 on screen to EXP1 of board.
 
 //
 // Ender-2 OEM display, a variant of the MKS_MINI_12864
